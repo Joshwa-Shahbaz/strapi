@@ -1,10 +1,17 @@
-.portfolioItem {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.quote {
   height: 100vh;
   width: 100%;
-  position: relative;
+  text-align: center;
 }
-.portfolioItem-textbox {
-  position: absolute;
-  bottom: 50px;
-  right: 50px;
+
+.center {
+  flex: 1;
+  align-self: center;
+  text-align: center;
+  padding: 70px 0;
 }
